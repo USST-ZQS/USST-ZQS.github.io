@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="张群声的个人主页——AI Agent 算法工程师与人工智能安全研究者，专注可信人工智能、多智能体系统、强化学习与安全智能体。"
+    />
+    <meta name="theme-color" content="#0a0d0c" />
+    <meta property="og:title" content="张群声｜AI Agent & AI Safety" />
+    <meta
+      property="og:description"
+      content="从数学证明到生产系统：让智能体更可靠，让算法经得起证明。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://usst-zqs.github.io/" />
+    <meta property="og:image" content="https://usst-zqs.github.io/assets/avatar.jpg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/avatar.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>张群声｜AI Agent & AI Safety</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Qunsheng Zhang",
+        "alternateName": "张群声",
+        "url": "https://usst-zqs.github.io/",
+        "image": "https://usst-zqs.github.io/assets/avatar.jpg",
+        "email": "mailto:qunsheng815@gmail.com",
+        "jobTitle": "AI Agent Algorithm Engineer & AI Safety Researcher",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Southeast University"
+        },
+        "sameAs": ["https://github.com/USST-ZQS"]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">ZQS<span>.</span></span>
+        <span class="brand-meta">AI SAFETY<br />RESEARCHER</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">打开导航菜单</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#capabilities">能力</a>
+        <a href="#work">研究与项目</a>
+        <a href="#publications">论文</a>
+        <a href="#experience">经历</a>
+      </nav>
+
+      <a class="header-contact" href="mailto:qunsheng815@gmail.com">
+        <span class="status-dot"></span> OPEN TO COLLABORATE
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <canvas id="agent-field" aria-hidden="true"></canvas>
+        <div class="hero-vignette" aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow hero-enter" style="--delay: 0ms">
+            <span>AI AGENT</span><span>TRUSTWORTHY AI</span><span>MULTI-AGENT SYSTEMS</span>
+          </p>
+          <p class="hero-name hero-enter" style="--delay: 90ms">张群声 <span>/ QUNSHENG ZHANG</span></p>
+          <h1 id="hero-title" class="hero-enter" style="--delay: 160ms">
+            让智能体更可靠，<br />
+            <em>让算法经得起证明。</em>
+          </h1>
+          <p class="hero-intro hero-enter" style="--delay: 250ms">
+            我是一名人工智能安全研究者与 AI Agent 算法工程师，<br />
+            把数学严谨性带进真实世界的智能系统。
+          </p>
+          <div class="hero-actions hero-enter" style="--delay: 330ms">
+            <a class="primary-action" href="#work">
+              查看代表工作
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5" /></svg>
+            </a>
+            <a class="text-action" href="assets/Qunsheng-Zhang-Resume.pdf" download>
+              下载简历 <span>PDF · 中文</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-portrait hero-enter" style="--delay: 380ms">
+          <div class="portrait-frame">
+            <img src="assets/avatar.jpg" alt="张群声的 GitHub 头像" width="480" height="480" />
+            <span class="portrait-scan" aria-hidden="true"></span>
+          </div>
+          <p><span>BASED IN</span> SHANGHAI, CHINA</p>
+        </div>
+
+        <div class="hero-proof hero-enter" style="--delay: 440ms" aria-label="核心成果">
+          <div><strong>02</strong><span>第一作者<br />JCR Q1 论文</span></div>
+          <div><strong>01</strong><span>AAAI 2027<br />第一作者在投</span></div>
+          <div><strong>985</strong><span>东南大学<br />数学硕士</span></div>
+          <div><strong>TOP 2%</strong><span>本科专业<br />排名</span></div>
+        </div>
+
+        <a class="scroll-cue" href="#capabilities" aria-label="继续向下浏览">
+          <span>SCROLL TO EXPLORE</span>
+          <i></i>
+        </a>
+      </section>
+
+      <section class="manifesto section-pad" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-kicker reveal">
+          <span>01 / CAPABILITIES</span>
+          <span>从理论边界到真实系统</span>
+        </div>
+
+        <div class="manifesto-grid">
+          <h2 id="capabilities-title" class="display-heading reveal">
+            FROM <span>PROOF</span><br />
+            TO <span>PRODUCTION.</span>
+          </h2>
+          <div class="manifesto-copy reveal">
+            <p>
+              我的能力不止于训练模型。研究中，我把问题写成可证明的数学命题；工程中，我把推理过程做成可解释、可审计的系统。
+            </p>
+            <p class="manifesto-note">数学 × 控制 × AI 安全，是我的独特交叉坐标。</p>
+          </div>
+        </div>
+
+        <div class="capability-list">
+          <article class="capability reveal">
+            <span class="capability-index">01</span>
+            <h3>Research<br />研究建模</h3>
+            <p>从复杂系统中抽象关键变量，完成理论建模、稳定性分析、算法设计与实验验证。</p>
+            <ul aria-label="研究建模关键词">
+              <li>Reinforcement Learning</li>
+              <li>Distributed Control</li>
+              <li>Sliding Mode Control</li>
+            </ul>
+          </article>
+          <article class="capability reveal">
+            <span class="capability-index">02</span>
+            <h3>Agent Systems<br />智能体系统</h3>
+            <p>设计多智能体分工、任务路由与工具调用机制，让复杂推理具备结构、边界与反馈闭环。</p>
+            <ul aria-label="智能体系统关键词">
+              <li>Multi-Agent Orchestration</li>
+              <li>RAG & MCP</li>
+              <li>Human-in-the-loop</li>
+            </ul>
+          </article>
+          <article class="capability reveal">
+            <span class="capability-index">03</span>
+            <h3>AI Safety<br />可信与安全</h3>
+            <p>关注证据溯源、运行时完整性与置信度校准，让智能体的每个结论都能被检查。</p>
+            <ul aria-label="人工智能安全关键词">
+              <li>Carrier Integrity</li>
+              <li>Evidence Provenance</li>
+              <li>Security Operations</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="selected-work" id="work" aria-labelledby="work-title">
+        <div class="section-pad work-heading">
+          <div class="section-kicker reveal">
+            <span>02 / SELECTED WORK</span>
+            <span>代表研究与真实应用</span>
+          </div>
+          <h2 id="work-title" class="display-heading reveal">SELECTED<br /><span>WORK.</span></h2>
+        </div>
+
+        <article class="case-study case-vera">
+          <div class="case-copy reveal">
+            <p class="case-number">CASE / 01</p>
+            <p class="case-label">AI AGENT SECURITY · AAAI 2027 UNDER REVIEW</p>
+            <h3>VERA</h3>
+            <p class="case-subtitle">Tool-Calling Agent 的运行时完整性研究</p>
+            <p class="case-description">
+              面向工具调用智能体的载体完整性风险，提出根域证据法定人数机制与执行边界监控器，联合验证签名证据、语义声明、任务作用域与精确调用能力。
+            </p>
+            <dl class="case-facts">
+              <div><dt>ROLE</dt><dd>第一作者</dd></div>
+              <div><dt>VENUE</dt><dd>AAAI 2027 · Under Review</dd></div>
+              <div><dt>OUTPUT</dt><dd>Benchmark + Mechanism + Model Checking</dd></div>
+            </dl>
+          </div>
+
+          <div class="vera-visual reveal" aria-label="VERA 证据法定人数机制示意图">
+            <div class="vera-grid" aria-hidden="true"></div>
+            <p class="visual-caption">ROOT-DOMAIN EVIDENCE QUORUM</p>
+            <div class="quorum" aria-hidden="true">
+              <span class="q-node q-a"><i></i> SIGNATURE</span>
+              <span class="q-node q-b"><i></i> SEMANTIC</span>
+              <span class="q-node q-c"><i></i> SCOPE</span>
+              <span class="q-node q-d"><i></i> CAPABILITY</span>
+              <span class="q-core"><b>VERA</b><small>ALLOW</small></span>
+              <svg viewBox="0 0 600 600" preserveAspectRatio="none">
+                <path d="M100 120L300 300L505 95M300 300L492 490M300 300L88 488" />
+                <circle cx="195" cy="210" r="3" /><circle cx="405" cy="202" r="3" />
+                <circle cx="400" cy="400" r="3" /><circle cx="198" cy="398" r="3" />
+              </svg>
+            </div>
+            <p class="visual-status"><span></span> EXECUTION BOUNDARY VERIFIED</p>
+          </div>
+        </article>
+
+        <article class="case-study case-soc">
+          <div class="case-copy reveal">
+            <p class="case-number">CASE / 02</p>
+            <p class="case-label">BANKING SECURITY · APPLIED AI</p>
+            <h3>安全运营<br />大模型</h3>
+            <p class="case-subtitle">把高噪声告警变成可审计的研判证据</p>
+            <p class="case-description">
+              面向银行 SOC 的高误报、多源异构数据与人工复核负担，设计“行为聚合—混合 RAG—分级多智能体研判—人工反馈”闭环。
+            </p>
+            <dl class="case-facts">
+              <div><dt>ROLE</dt><dd>安全运营大模型负责人</dd></div>
+              <div><dt>SYSTEM</dt><dd>L1 分诊 + L2 研判 + 专项 Agent</dd></div>
+              <div><dt>FOCUS</dt><dd>可解释 · 可审计 · 人工在环</dd></div>
+            </dl>
+          </div>
+
+          <div class="soc-visual reveal" aria-label="安全告警智能研判流程示意图">
+            <p class="visual-caption">ALERT INTELLIGENCE PIPELINE</p>
+            <div class="pipeline" aria-hidden="true">
+              <div class="pipeline-stage">
+                <span>01</span><b>BEHAVIOR<br />AGGREGATION</b><i>LOG / FLOW / EDR</i>
+              </div>
+              <div class="pipeline-arrow"><i></i></div>
+              <div class="pipeline-stage">
+                <span>02</span><b>HYBRID<br />RETRIEVAL</b><i>VECTOR / BM25 / IOC</i>
+              </div>
+              <div class="pipeline-arrow"><i></i></div>
+              <div class="pipeline-stage active">
+                <span>03</span><b>MULTI-AGENT<br />REASONING</b><i>TRIAGE / REVIEW</i>
+              </div>
+              <div class="pipeline-arrow"><i></i></div>
+              <div class="pipeline-stage">
+                <span>04</span><b>AUDITABLE<br />DECISION</b><i>EVIDENCE / HUMAN</i>
+              </div>
+            </div>
+            <div class="confidence" aria-hidden="true">
+              <span>CONFIDENCE CALIBRATION</span>
+              <i><b></b></i>
+              <strong>HUMAN REVIEW READY</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-study case-control">
+          <div class="case-copy reveal">
+            <p class="case-number">CASE / 03</p>
+            <p class="case-label">REINFORCEMENT LEARNING · CONTROL THEORY</p>
+            <h3>预定义时间<br />协同控制</h3>
+            <p class="case-subtitle">让复杂多智能体系统在指定时间内达成一致</p>
+            <p class="case-description">
+              将 ICA 强化学习、滑模控制与投影修正结合，在外部扰动下实现高阶非线性多智能体系统的性能优化与预定义时间一致性。
+            </p>
+            <dl class="case-facts">
+              <div><dt>ROLE</dt><dd>第一作者 · 核心研究者</dd></div>
+              <div><dt>VENUE</dt><dd>ISA Transactions · JCR Q1</dd></div>
+              <div><dt>METHOD</dt><dd>Identifier–Critic–Actor RL</dd></div>
+            </dl>
+          </div>
+
+          <div class="control-visual reveal" aria-label="多智能体预定义时间一致性示意图">
+            <p class="visual-caption">PREDEFINED-TIME CONVERGENCE</p>
+            <svg viewBox="0 0 720 560" role="img" aria-label="多个智能体轨迹在预定义时间 T 星处收敛">
+              <defs>
+                <linearGradient id="fadeLine" x1="0" x2="1">
+                  <stop offset="0" stop-color="#f4f1e8" stop-opacity=".1" />
+                  <stop offset=".7" stop-color="#c7ff4a" stop-opacity=".75" />
+                  <stop offset="1" stop-color="#c7ff4a" />
+                </linearGradient>
+              </defs>
+              <g class="chart-grid">
+                <path d="M75 70V475H655" />
+                <path d="M75 150H655M75 230H655M75 310H655M75 390H655" />
+              </g>
+              <g class="trajectories">
+                <path d="M80 115C170 125 205 195 285 248S420 280 565 284" />
+                <path d="M80 190C165 190 205 218 285 260S430 281 565 284" />
+                <path d="M80 430C170 415 210 350 290 320S420 288 565 284" />
+                <path d="M80 355C170 355 220 325 300 302S430 286 565 284" />
+              </g>
+              <path class="t-star" d="M565 70V475" />
+              <circle class="converge-dot" cx="565" cy="284" r="8" />
+              <text x="578" y="94">T*</text>
+              <text x="577" y="312">CONSENSUS</text>
+              <text x="76" y="512">t = 0</text>
+              <text x="618" y="512">TIME</text>
+            </svg>
+            <div class="equation" aria-hidden="true">lim <sub>t→T*</sub> ‖x<sub>i</sub>(t) − x<sub>j</sub>(t)‖ = 0</div>
+          </div>
+        </article>
+      </section>
+
+      <section class="publications section-pad" id="publications" aria-labelledby="publications-title">
+        <div class="section-kicker reveal">
+          <span>03 / PUBLICATIONS</span>
+          <span>第一作者研究成果</span>
+        </div>
+        <div class="publication-heading">
+          <h2 id="publications-title" class="display-heading reveal">RESEARCH<br /><span>OUTPUT.</span></h2>
+          <p class="reveal">聚焦多智能体控制、复杂网络同步与 Tool-Calling Agent 安全。</p>
+        </div>
+
+        <ol class="publication-list">
+          <li class="publication reveal">
+            <span class="pub-year">2026</span>
+            <div>
+              <p class="pub-meta">ISA TRANSACTIONS · JCR Q1 · FIRST AUTHOR</p>
+              <h3>Optimized predefined-time control for high-order nonlinear MASs via ICA and reinforcement learning</h3>
+              <p>Qunsheng Zhang, Jianqiang Hu, Jinde Cao, Tianhu Yu</p>
+            </div>
+            <a href="https://doi.org/10.1016/j.isatra.2026.06.029" target="_blank" rel="noreferrer" aria-label="打开论文 DOI">
+              DOI <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" /></svg>
+            </a>
+          </li>
+          <li class="publication reveal">
+            <span class="pub-year">2025</span>
+            <div>
+              <p class="pub-meta">CNSNS · JCR Q1 · FIRST AUTHOR</p>
+              <h3>Fixed-time synchronization of nonlinear coupling MNNs with time delay via aperiodically intermittent sliding mode control</h3>
+              <p>Qunsheng Zhang, Jianqiang Hu, Jinde Cao</p>
+            </div>
+            <a href="https://doi.org/10.1016/j.cnsns.2025.108995" target="_blank" rel="noreferrer" aria-label="打开论文 DOI">
+              DOI <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" /></svg>
+            </a>
+          </li>
+          <li class="publication reveal">
+            <span class="pub-year">2027</span>
+            <div>
+              <p class="pub-meta">AAAI 2027 · UNDER REVIEW · FIRST AUTHOR</p>
+              <h3>VERA: Root-Domain Evidence Quorums for Carrier Integrity in Tool-Calling Agents</h3>
+              <p>Qunsheng Zhang</p>
+            </div>
+            <span class="under-review">UNDER<br />REVIEW</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="experience section-pad" id="experience" aria-labelledby="experience-title">
+        <div class="section-kicker reveal">
+          <span>04 / JOURNEY</span>
+          <span>研究与实践路径</span>
+        </div>
+        <div class="experience-grid">
+          <h2 id="experience-title" class="display-heading reveal">THE<br /><span>JOURNEY.</span></h2>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2025.07 — 2026.07</div>
+              <div class="timeline-body">
+                <p>交通银行总行 · 上海</p>
+                <h3>安全运营大模型负责人</h3>
+                <p>负责告警研判智能体架构与关键算法，连接 Agent、RAG 与银行级安全运营场景。</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2022.09 — 2025.06</div>
+              <div class="timeline-body">
+                <p>东南大学 · 数学学院</p>
+                <h3>数学硕士</h3>
+                <p>研究强化学习、多智能体系统与分布式控制；硕士论文获国家级推荐。</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2018.09 — 2022.06</div>
+              <div class="timeline-body">
+                <p>上海理工大学 · 理学院</p>
+                <h3>数学与应用数学学士</h3>
+                <p>GPA 3.79/4.5，专业前 2%；上海市优秀毕业生。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="honors reveal" aria-label="代表荣誉">
+          <p>SELECTED HONORS</p>
+          <div class="honor-track">
+            <span>优秀硕士论文国家级推荐</span><i></i>
+            <span>“华为杯”研究生数学建模国家二等奖</span><i></i>
+            <span>全国大学生数学竞赛国家二等奖</span><i></i>
+            <span>上海市优秀毕业生</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="beyond section-pad" aria-labelledby="beyond-title">
+        <div class="beyond-portrait reveal">
+          <img src="assets/avatar.jpg" alt="张群声使用的 GitHub 头像" width="640" height="640" loading="lazy" />
+          <div aria-hidden="true"></div>
+        </div>
+        <div class="beyond-copy reveal">
+          <p class="section-kicker"><span>05 / BEYOND RESEARCH</span></p>
+          <h2 id="beyond-title">严谨之外，<br /><em>也保持好奇。</em></h2>
+          <p>
+            数学训练让我尊重边界与证明，小提琴让我理解节奏与协作。研究之外，我喜欢羽毛球、篮球和滑冰——持续学习，也持续行动。
+          </p>
+          <p class="personal-note">小提琴十级 · 运动爱好者 · 上海</p>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="section-kicker reveal"><span>06 / CONTACT</span></p>
+        <h2 id="contact-title" class="reveal">LET’S BUILD<br /><span>TRUSTWORTHY AI.</span></h2>
+        <p class="reveal">欢迎交流可信人工智能、智能体安全、多智能体系统与博士研究机会。</p>
+        <div class="contact-actions reveal">
+          <a href="mailto:qunsheng815@gmail.com" class="primary-action light">
+            发邮件给我
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5" /></svg>
+          </a>
+          <a href="https://github.com/USST-ZQS" target="_blank" rel="noreferrer" class="contact-link">
+            GITHUB <span>↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand-mark" href="#top">ZQS<span>.</span></a>
+      <p>© <span id="year"></span> QUNSHENG ZHANG</p>
+      <p>DESIGNED FOR CURIOSITY · BUILT WITH RIGOR</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
