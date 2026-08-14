@@ -5,7 +5,6 @@
 ## 访问
 
 - GitHub Pages: <https://usst-zqs.github.io/>
-- 自定义域名: <https://seuqs.me/>
 
 ## 本地预览
 
