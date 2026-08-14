@@ -1,346 +1,373 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta
       name="description"
-      content="张群声的个人学术主页——人工智能安全研究者与 AI Agent 算法工程师，研究方向包括可信人工智能、智能体安全、多智能体系统与强化学习。"
+      content="Qunsheng Zhang's academic homepage. Research interests include trustworthy AI, agent security, large language model security, multi-agent systems, and reinforcement learning."
     />
-    <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="张群声｜Qunsheng Zhang" />
-    <meta
-      property="og:description"
-      content="AI Agent 算法工程师与人工智能安全研究者。"
-    />
+    <meta name="theme-color" content="#f8f9fa" />
+    <meta property="og:title" content="Qunsheng Zhang 张群声" />
+    <meta property="og:description" content="M.S. in Mathematics · AI Safety and Multi-Agent Systems" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://usst-zqs.github.io/" />
     <meta property="og:image" content="https://usst-zqs.github.io/assets/avatar.jpg" />
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="assets/avatar.jpg" as="image" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>张群声｜Qunsheng Zhang</title>
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Qunsheng Zhang",
-        "alternateName": "张群声",
-        "url": "https://usst-zqs.github.io/",
-        "image": "https://usst-zqs.github.io/assets/avatar.jpg",
-        "email": "mailto:qunsheng815@gmail.com",
-        "jobTitle": "AI Agent Algorithm Engineer and AI Safety Researcher",
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Southeast University"
-        },
-        "sameAs": ["https://github.com/USST-ZQS"]
-      }
-    </script>
+    <title>Qunsheng Zhang - Homepage</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Raleway:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
-    <a class="skip-link" href="#main">跳到正文</a>
-
-    <header class="site-header" data-header>
-      <div class="nav-shell">
-        <a class="site-name" href="#top">
-          <span>Qunsheng Zhang</span>
-          <small>张群声</small>
-        </a>
-
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
-          <span></span><span></span>
-          <em>菜单</em>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>Homepage</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-map"></i> Menu
         </button>
 
-        <nav class="site-nav" id="site-nav" aria-label="主导航">
-          <a href="#about">关于</a>
-          <a href="#research">研究</a>
-          <a href="#publications">论文</a>
-          <a href="#experience">经历</a>
-          <a href="#honors">荣誉</a>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="showcase.html">Showcase</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+          </ul>
+        </div>
       </div>
-    </header>
+    </nav>
 
-    <main id="main">
-      <section class="intro page-shell" id="top" aria-labelledby="intro-title">
-        <div class="intro-main">
-          <p class="overline">AI AGENT · TRUSTWORTHY AI · MULTI-AGENT SYSTEMS</p>
-          <h1 id="intro-title">张群声 <span>Qunsheng Zhang</span></h1>
-          <p class="role">AI Agent 算法工程师 · 人工智能安全研究者</p>
+    <main class="container home">
+      <section class="row">
+        <div class="col">
+          <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4 p-md-5">
+              <div class="row">
+                <div class="col">
+                  <figure class="figure float-right ml-4 mb-4 d-none d-md-block">
+                    <img
+                      src="assets/avatar.jpg"
+                      class="figure-img img-fluid img-thumbnail profile-portrait"
+                      alt="Qunsheng Zhang's GitHub avatar"
+                      title="Stay curious, stay rigorous."
+                    />
+                  </figure>
 
-          <div class="intro-copy" id="about">
-            <p>
-              我于 2025 年获得<a href="https://www.seu.edu.cn/" target="_blank" rel="noreferrer">东南大学</a>数学硕士学位，研究横跨强化学习、多智能体系统、分布式控制与人工智能安全。目前关注可信人工智能、智能体安全、大模型安全和多智能体协作。
-            </p>
-            <p>
-              我具备从理论建模、稳定性证明和算法设计，到 Agent 架构、混合检索与安全运营落地的完整研究经验。已以第一作者发表两篇 JCR Q1 期刊论文，并有一篇 AAAI 2027 第一作者论文在审。
-            </p>
-          </div>
+                  <div class="d-flex">
+                    <h1 class="font-weight-normal profile-name">
+                      Qunsheng Zhang <small>张群声</small>
+                    </h1>
+                    <div class="ml-auto d-md-none">
+                      <a href="assets/avatar.jpg" target="_blank" rel="noreferrer">
+                        <img src="assets/avatar.jpg" class="rounded-circle mobile-avatar" alt="Portrait" />
+                      </a>
+                    </div>
+                  </div>
 
-          <p class="availability">
-            <span></span>
-            欢迎交流博士研究机会及可信 AI 方向合作。
-          </p>
+                  <div class="text-profile-position">
+                    <img src="assets/badges/seu.svg" alt="Southeast University" class="inline-badge" />
+                    M.S. in Mathematics · AI Safety Researcher
+                  </div>
 
-          <div class="social-links" aria-label="联系方式与个人链接">
-            <a href="mailto:qunsheng815@gmail.com">Email</a>
-            <a href="https://github.com/USST-ZQS" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="assets/Qunsheng-Zhang-Resume.pdf" download>CV</a>
-          </div>
-        </div>
+                  <div class="text-profile-bio mt-3">
+                    <p>
+                      I received my M.S. degree from the
+                      <a href="https://math.seu.edu.cn/" target="_blank" rel="noreferrer">School of Mathematics</a>,
+                      <a href="https://www.seu.edu.cn/" target="_blank" rel="noreferrer">Southeast University</a>.
+                      My research focuses on trustworthy artificial intelligence, including
+                      <strong>agent security and large language model safety</strong>,
+                      <strong>multi-agent systems</strong>, reinforcement learning, and distributed control.
+                    </p>
 
-        <aside class="profile" aria-label="个人资料">
-          <img src="assets/avatar.jpg" alt="张群声使用的 GitHub 头像" width="460" height="460" />
-          <dl>
-            <div><dt>Location</dt><dd>Shanghai, China</dd></div>
-            <div><dt>Focus</dt><dd>Agent Safety & MAS</dd></div>
-            <div><dt>Email</dt><dd><a href="mailto:qunsheng815@gmail.com">qunsheng815@gmail.com</a></dd></div>
-          </dl>
-        </aside>
-      </section>
+                    <p>
+                      I worked on security-operation agents at the Head Office of Bank of Communications, where I studied behavior aggregation, hybrid retrieval-augmented generation, multi-agent reasoning, and auditable decision making. Prior to my master's study, I obtained a B.S. in Mathematics and Applied Mathematics from
+                      <a href="https://www.usst.edu.cn/" target="_blank" rel="noreferrer">University of Shanghai for Science and Technology</a>.
+                    </p>
 
-      <section class="research page-shell section" id="research" aria-labelledby="research-title">
-        <header class="section-heading">
-          <p>01</p>
-          <h2 id="research-title">Research Interests</h2>
-          <span>研究兴趣</span>
-        </header>
+                    <p>
+                      <i class="fa-solid fa-rectangle-ad opportunity-icon"></i>
+                      <span class="opportunity-text">I am looking for Ph.D. opportunities and collaborators</span>
+                      interested in Trustworthy AI, Agent Security, LLM Safety, and Multi-Agent Systems. I am particularly interested in building intelligent agents that can reason with verifiable evidence, respect execution boundaries, and remain reliable in high-stakes environments. If you are interested in collaboration, please feel free to reach out via email.
+                    </p>
+                  </div>
 
-        <div class="interest-list">
-          <article>
-            <span>01</span>
-            <div>
-              <h3>可信人工智能与智能体安全</h3>
-              <p>研究 Tool-Calling Agent 的运行时完整性、证据溯源、执行边界与置信度校准。</p>
-            </div>
-            <p>Trustworthy AI<br />Agent Security</p>
-          </article>
-          <article>
-            <span>02</span>
-            <div>
-              <h3>大模型与多智能体系统</h3>
-              <p>关注多智能体编排、任务路由、MCP 工具调用、混合 RAG 与人工反馈闭环。</p>
-            </div>
-            <p>LLM Agents<br />Multi-Agent Systems</p>
-          </article>
-          <article>
-            <span>03</span>
-            <div>
-              <h3>强化学习与分布式控制</h3>
-              <p>面向高阶非线性多智能体系统，研究强化学习、滑模控制与预定义时间一致性。</p>
-            </div>
-            <p>Reinforcement Learning<br />Distributed Control</p>
-          </article>
-        </div>
-      </section>
+                  <a href="assets/Qunsheng-Zhang-Resume.pdf" target="_blank">
+                    <i class="fas fa-file-alt"></i> Curriculum Vitae
+                  </a>
+                </div>
+              </div>
 
-      <section class="updates page-shell section" aria-labelledby="updates-title">
-        <header class="section-heading">
-          <p>02</p>
-          <h2 id="updates-title">Recent Updates</h2>
-          <span>近期动态</span>
-        </header>
+              <hr />
 
-        <div class="update-list">
-          <article>
-            <time datetime="2026-07">2026.07</time>
-            <p><strong>[Paper]</strong> 第一作者论文发表于 <em>ISA Transactions</em>，研究 ICA 强化学习驱动的高阶非线性多智能体预定义时间控制。</p>
-          </article>
-          <article>
-            <time datetime="2026">2026</time>
-            <p><strong>[Research]</strong> VERA：面向 Tool-Calling Agent 的根域证据法定人数与运行时完整性研究，AAAI 2027 在审。</p>
-          </article>
-          <article>
-            <time datetime="2025">2025</time>
-            <p><strong>[Paper]</strong> 第一作者论文发表于 <em>Communications in Nonlinear Science and Numerical Simulation</em>。</p>
-          </article>
-          <article>
-            <time datetime="2025-05">2025.05</time>
-            <p><strong>[Award]</strong> 硕士论文获东南大学优秀硕士学位论文，并获国家级推荐。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="publications page-shell section" id="publications" aria-labelledby="publications-title">
-        <header class="section-heading">
-          <p>03</p>
-          <h2 id="publications-title">Selected Publications</h2>
-          <span>代表论文</span>
-        </header>
-
-        <ol class="publication-list">
-          <li class="publication">
-            <div class="paper-figure figure-ica" aria-hidden="true">
-              <svg viewBox="0 0 260 150">
-                <path class="axis" d="M25 20v105h210" />
-                <path class="grid" d="M25 50h210M25 82h210M25 112h210" />
-                <path class="curve a" d="M28 34c42 8 55 38 91 54s66 12 109 14" />
-                <path class="curve b" d="M28 119c42-5 58-30 94-23s64 8 106 6" />
-                <path class="curve c" d="M28 71c37 1 65 11 93 22s59 9 107 9" />
-                <circle cx="228" cy="102" r="4" />
-              </svg>
-              <span>Predefined-time convergence</span>
-            </div>
-            <div class="paper-copy">
-              <p class="paper-venue">ISA Transactions · 2026 · JCR Q1</p>
-              <h3>Optimized predefined-time control for high-order nonlinear MASs via ICA and reinforcement learning</h3>
-              <p class="authors"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao, Tianhu Yu</p>
-              <p class="paper-summary">结合 Identifier–Critic–Actor 强化学习、预设性能约束与滑模控制，实现外部扰动下的性能优化和预定义时间一致性。</p>
-              <div class="paper-links">
-                <a href="https://doi.org/10.1016/j.isatra.2026.06.029" target="_blank" rel="noreferrer">DOI ↗</a>
+              <div class="row">
+                <div class="col profile-links">
+                  <a class="pr-3 no-break" href="mailto:qunsheng815@gmail.com">
+                    <i class="fas fa-at"></i> <span class="email-text">qunsheng815(at)gmail.com</span>
+                  </a>
+                  <a
+                    class="pr-3 no-break"
+                    href="https://scholar.google.com/scholar?q=%22Qunsheng+Zhang%22+multi-agent+control"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="fa-brands fa-google-scholar"></i> Google Scholar
+                  </a>
+                  <a class="pr-3 no-break" href="https://github.com/USST-ZQS" target="_blank" rel="noreferrer">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                  <a class="pr-3 no-break" href="#" data-toggle="modal" data-target="#modal-wechat">
+                    <i class="fab fa-weixin"></i> WeChat
+                  </a>
+                  <a class="pr-3 no-break" href="assets/Qunsheng-Zhang-Resume.pdf" target="_blank">
+                    <i class="fas fa-file-pdf"></i> CV
+                  </a>
+                </div>
               </div>
             </div>
-          </li>
+          </div>
+        </div>
+      </section>
 
-          <li class="publication">
-            <div class="paper-figure figure-vera" aria-hidden="true">
-              <svg viewBox="0 0 260 150">
-                <path d="M48 35L130 75L210 32M130 75L208 120M130 75L52 120" />
-                <circle cx="130" cy="75" r="27" />
-                <circle cx="48" cy="35" r="8" />
-                <circle cx="210" cy="32" r="8" />
-                <circle cx="208" cy="120" r="8" />
-                <circle cx="52" cy="120" r="8" />
-                <text x="130" y="79">VERA</text>
-              </svg>
-              <span>Evidence quorum</span>
-            </div>
-            <div class="paper-copy">
-              <p class="paper-venue">AAAI 2027 · Under Review</p>
-              <h3>VERA: Root-Domain Evidence Quorums for Carrier Integrity in Tool-Calling Agents</h3>
-              <p class="authors"><strong>Qunsheng Zhang</strong></p>
-              <p class="paper-summary">提出根域证据法定人数机制与执行边界监控器，联合验证签名证据、语义声明、任务作用域、来源依赖闭包与精确调用能力。</p>
-              <div class="paper-links"><span>Under review</span></div>
-            </div>
-          </li>
+      <section class="row mt-3">
+        <div class="col">
+          <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mx-2 my-1">
+                    <h6>Education</h6>
+                    <ul class="list-unstyled mb-1">
+                      <li class="media mb-2">
+                        <img src="assets/badges/seu.svg" alt="Southeast University" class="mr-1 mt-1 item-badge" />
+                        <div class="media-body">
+                          <div>Southeast University</div>
+                          <div class="small">School of Mathematics</div>
+                          <div class="small d-flex">
+                            <div>M.S. in Mathematics</div>
+                            <div class="mt-auto ml-auto no-break"><em>Sep. 2022 - Jun. 2025</em></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media mb-2">
+                        <img src="assets/badges/usst.svg" alt="University of Shanghai for Science and Technology" class="mr-1 mt-1 item-badge" />
+                        <div class="media-body">
+                          <div>University of Shanghai for Science and Technology</div>
+                          <div class="small">College of Science</div>
+                          <div class="small d-flex">
+                            <div>B.S. in Mathematics and Applied Mathematics</div>
+                            <div class="mt-auto ml-auto no-break"><em>Sep. 2018 - Jun. 2022</em></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
 
-          <li class="publication">
-            <div class="paper-figure figure-sync" aria-hidden="true">
-              <svg viewBox="0 0 260 150">
-                <g class="nodes">
-                  <circle cx="53" cy="44" r="10" /><circle cx="112" cy="27" r="10" />
-                  <circle cx="185" cy="44" r="10" /><circle cx="211" cy="99" r="10" />
-                  <circle cx="143" cy="122" r="10" /><circle cx="72" cy="108" r="10" />
-                </g>
-                <g class="edges">
-                  <path d="M53 44L112 27L185 44L211 99L143 122L72 108Z" />
-                  <path d="M53 44L143 122M112 27L211 99M185 44L72 108" />
-                </g>
-                <circle class="center" cx="130" cy="76" r="19" />
-              </svg>
-              <span>Fixed-time synchronization</span>
-            </div>
-            <div class="paper-copy">
-              <p class="paper-venue">CNSNS · 2025 · JCR Q1</p>
-              <h3>Fixed-time synchronization of nonlinear coupling MNNs with time delay via aperiodically intermittent sliding mode control</h3>
-              <p class="authors"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao</p>
-              <p class="paper-summary">研究含时滞、非线性耦合忆阻神经网络的固定时间同步条件与收敛时间界。</p>
-              <div class="paper-links">
-                <a href="https://doi.org/10.1016/j.cnsns.2025.108995" target="_blank" rel="noreferrer">DOI ↗</a>
+                  <div class="mx-2 my-1">
+                    <h6>Honors & Awards</h6>
+                    <ul class="list small pl-3 mb-1 award-list">
+                      <li><div class="d-flex"><div>Outstanding Master's Thesis, National-Level Recommendation</div><div class="ml-auto mt-auto no-break"><em>May 2025</em></div></div></li>
+                      <li><div class="d-flex"><div>National Second Prize, China Postgraduate Mathematical Contest in Modeling</div><div class="ml-auto mt-auto no-break"><em>Oct. 2023</em></div></div></li>
+                      <li><div class="d-flex"><div>National Second Prize, Chinese Mathematics Competitions</div><div class="ml-auto mt-auto no-break"><em>Nov. 2021</em></div></div></li>
+                      <li><div class="d-flex"><div>Shanghai Outstanding Graduate</div><div class="ml-auto mt-auto no-break"><em>Jun. 2022</em></div></div></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mx-2 my-1">
+                    <h6>Experience</h6>
+                    <ul class="list-unstyled mb-1">
+                      <li class="media mb-3">
+                        <img src="assets/badges/bocom.svg" alt="Bank of Communications" class="mr-1 mt-1 item-badge" />
+                        <div class="media-body">
+                          <div>Bank of Communications, Head Office</div>
+                          <div class="small">Security Department</div>
+                          <div class="small d-flex">
+                            <div>Lead, Security Operations Large Language Model</div>
+                            <div class="mt-auto ml-auto no-break"><em>Jul. 2025 - Jul. 2026</em></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media mb-2">
+                        <img src="assets/badges/nnsfc.svg" alt="National Natural Science Foundation of China" class="mr-1 mt-1 item-badge" />
+                        <div class="media-body">
+                          <div>National Natural Science Foundation Project</div>
+                          <div class="small">Project No. 62073079</div>
+                          <div class="small d-flex">
+                            <div>Researcher, Distributed Secure Cooperative Control</div>
+                            <div class="mt-auto ml-auto no-break"><em>Sep. 2022 - Dec. 2024</em></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-          </li>
-        </ol>
-      </section>
-
-      <section class="projects page-shell section" aria-labelledby="projects-title">
-        <header class="section-heading">
-          <p>04</p>
-          <h2 id="projects-title">Selected Projects</h2>
-          <span>代表项目</span>
-        </header>
-
-        <div class="project-list">
-          <article>
-            <p class="project-period">2025.07 — 2026.07</p>
-            <div>
-              <p class="project-context">交通银行总行 · 安全运营</p>
-              <h3>安全运营大模型与告警研判智能体</h3>
-              <p>构建行为聚合、混合 RAG、分级多智能体研判与人工反馈闭环，面向 APT、横向移动、数据泄露等安全场景提供可解释、可审计的研判结果。</p>
-            </div>
-            <ul>
-              <li>Multi-Agent</li>
-              <li>Hybrid RAG</li>
-              <li>MITRE ATT&CK</li>
-            </ul>
-          </article>
-          <article>
-            <p class="project-period">2022.09 — 2024.12</p>
-            <div>
-              <p class="project-context">国家自然科学基金面上项目 · 62073079</p>
-              <h3>复杂信息—物理网络分布式安全协同控制</h3>
-              <p>面向恶意攻击、通信延迟、数据丢失与资源受限环境，开展强化学习、多智能体系统和分布式安全控制研究。</p>
-            </div>
-            <ul>
-              <li>Reinforcement Learning</li>
-              <li>MAS</li>
-              <li>Control Theory</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="background page-shell section" id="experience" aria-labelledby="background-title">
-        <header class="section-heading">
-          <p>05</p>
-          <h2 id="background-title">Background</h2>
-          <span>教育与经历</span>
-        </header>
-
-        <div class="background-grid">
-          <div>
-            <h3>Experience</h3>
-            <article class="background-item">
-              <time>2025.07 — 2026.07</time>
-              <div><strong>交通银行总行</strong><span>安全运营大模型负责人 · 上海</span></div>
-            </article>
-          </div>
-          <div>
-            <h3>Education</h3>
-            <article class="background-item">
-              <time>2022.09 — 2025.06</time>
-              <div><strong>东南大学</strong><span>数学硕士 · 数学学院</span></div>
-            </article>
-            <article class="background-item">
-              <time>2018.09 — 2022.06</time>
-              <div><strong>上海理工大学</strong><span>数学与应用数学学士 · 专业前 2%</span></div>
-            </article>
           </div>
         </div>
       </section>
 
-      <section class="honors page-shell section" id="honors" aria-labelledby="honors-title">
-        <header class="section-heading">
-          <p>06</p>
-          <h2 id="honors-title">Selected Honors</h2>
-          <span>代表荣誉</span>
-        </header>
-
-        <ul class="honor-list">
-          <li><span>2025</span><p>东南大学优秀硕士学位论文，国家级推荐</p></li>
-          <li><span>2023</span><p>“华为杯”中国研究生数学建模竞赛国家二等奖</p></li>
-          <li><span>2022</span><p>上海市优秀毕业生</p></li>
-          <li><span>2021</span><p>全国大学生数学竞赛国家二等奖（专业组）</p></li>
-        </ul>
+      <section class="my-3 bg-white shadow-sm rounded-sm" id="news">
+        <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
+        <div class="px-3 pb-1">
+          <div class="media py-1">
+            <div class="mr-3 text-muted my-1">2026</div>
+            <div class="media-body">
+              <div class="my-1 d-flex"><div>[📜Paper] Our VERA paper is under review at AAAI 2027.</div><div class="ml-auto mt-auto text-muted no-break"><i>Aug 01</i></div></div>
+              <div class="my-1 d-flex"><div>[📜Paper] Our predefined-time control paper was published in <em>ISA Transactions</em>.</div><div class="ml-auto mt-auto text-muted no-break"><i>Jul 01</i></div></div>
+              <div class="my-1 d-flex"><div>[💻Work] Completed one year of research and engineering on security-operation agents at Bank of Communications.</div><div class="ml-auto mt-auto text-muted no-break"><i>Jul 01</i></div></div>
+            </div>
+          </div>
+          <div class="media py-1 border-top border-gray">
+            <div class="mr-3 text-muted my-1">2025</div>
+            <div class="media-body">
+              <div class="my-1 d-flex"><div>[💻Work] Joined the Security Department of Bank of Communications Head Office, focusing on LLM agents for SOC alert triage.</div><div class="ml-auto mt-auto text-muted no-break"><i>Jul 01</i></div></div>
+              <div class="my-1 d-flex"><div>[📜Paper] Our fixed-time synchronization paper was published in <em>CNSNS</em>.</div><div class="ml-auto mt-auto text-muted no-break"><i>Jun 01</i></div></div>
+              <div class="my-1 d-flex"><div>[🏆Award] Master's thesis received an outstanding thesis award and national-level recommendation.</div><div class="ml-auto mt-auto text-muted no-break"><i>May 15</i></div></div>
+            </div>
+          </div>
+          <div class="media py-1 border-top border-gray">
+            <div class="mr-3 text-muted my-1">2024</div>
+            <div class="media-body">
+              <div class="my-1 d-flex"><div>[🎤Talk] Presented research on multi-agent control at CSSCC 2024.</div><div class="ml-auto mt-auto text-muted no-break"><i>Jul 28</i></div></div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="contact page-shell" aria-labelledby="contact-title">
-        <p class="overline">CONTACT</p>
-        <h2 id="contact-title">Let’s talk about trustworthy AI.</h2>
-        <p>欢迎联系我交流博士研究、人工智能安全与多智能体系统。</p>
-        <a href="mailto:qunsheng815@gmail.com">qunsheng815@gmail.com <span>↗</span></a>
+      <section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="publications">
+        <h6 class="border-bottom border-gray p-3 mb-0">
+          <i class="fas fa-star"></i> Selected Publications
+          <a href="publications.html">(view all <i class="fas fa-angle-double-right"></i>)</a>
+        </h6>
+
+        <article class="publication-item border-bottom border-gray">
+          <div class="d-none d-md-block">
+            <div class="row no-gutters">
+              <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+                <img src="assets/covers/paper-ica.svg" alt="Predefined-time convergence" class="w-100 rounded-sm" />
+              </div>
+              <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+                <h5 class="mt-0 mb-1 font-weight-normal">Optimized predefined-time control for high-order nonlinear MASs via ICA and reinforcement learning</h5>
+                <p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao, Tianhu Yu</p>
+                <p class="mt-0 mb-0 small">Published in <i>ISA Transactions</i>, 2026 <span class="badge badge-pill badge-success">JCR Q1</span></p>
+                <p class="mt-0 mb-0 small text-muted abstract-body">We develop an identifier–critic–actor reinforcement learning framework for optimized predefined-time control of high-order nonlinear multi-agent systems. Prescribed performance, sliding-mode control, and projection correction are integrated to guarantee practical predefined-time consensus under external disturbances.</p>
+                <p class="small pb-0 mb-0 text-muted"><a href="https://doi.org/10.1016/j.isatra.2026.06.029" target="_blank" rel="noreferrer">[Paper]</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="d-md-none mobile-publication" style="background-image:url('assets/covers/paper-ica.svg')">
+            <div class="mobile-publication-overlay"><h5 class="mt-0 mb-1 font-weight-normal">Optimized predefined-time control for high-order nonlinear MASs via ICA and reinforcement learning</h5><p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao, Tianhu Yu</p><p class="mt-0 mb-0 small">Published in <i>ISA Transactions</i>, 2026</p><p class="mt-0 mb-0 small text-muted">An ICA reinforcement learning framework for predefined-time consensus under external disturbances.</p><p class="small pb-0 mb-0"><a href="https://doi.org/10.1016/j.isatra.2026.06.029" target="_blank" rel="noreferrer">[Paper]</a></p></div>
+          </div>
+        </article>
+
+        <article class="publication-item border-bottom border-gray">
+          <div class="d-none d-md-block">
+            <div class="row no-gutters">
+              <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+                <img src="assets/covers/paper-sync.svg" alt="Fixed-time synchronization" class="w-100 rounded-sm" />
+              </div>
+              <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+                <h5 class="mt-0 mb-1 font-weight-normal">Fixed-time synchronization of nonlinear coupling MNNs with time delay via aperiodically intermittent sliding mode control</h5>
+                <p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao</p>
+                <p class="mt-0 mb-0 small">Published in <i>Communications in Nonlinear Science and Numerical Simulation</i>, 2025 <span class="badge badge-pill badge-success">JCR Q1</span></p>
+                <p class="mt-0 mb-0 small text-muted abstract-body">We study fixed-time synchronization for nonlinear coupled memristive neural networks with time delay. An aperiodically intermittent sliding-mode controller is designed, and sufficient synchronization conditions together with an explicit settling-time bound are established.</p>
+                <p class="small pb-0 mb-0 text-muted"><a href="https://doi.org/10.1016/j.cnsns.2025.108995" target="_blank" rel="noreferrer">[Paper]</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="d-md-none mobile-publication" style="background-image:url('assets/covers/paper-sync.svg')">
+            <div class="mobile-publication-overlay"><h5 class="mt-0 mb-1 font-weight-normal">Fixed-time synchronization of nonlinear coupling MNNs with time delay</h5><p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong>, Jianqiang Hu, Jinde Cao</p><p class="mt-0 mb-0 small">Published in <i>CNSNS</i>, 2025</p><p class="mt-0 mb-0 small text-muted">Fixed-time synchronization via aperiodically intermittent sliding-mode control.</p><p class="small pb-0 mb-0"><a href="https://doi.org/10.1016/j.cnsns.2025.108995" target="_blank" rel="noreferrer">[Paper]</a></p></div>
+          </div>
+        </article>
+
+        <article class="publication-item border-bottom border-gray">
+          <div class="d-none d-md-block">
+            <div class="row no-gutters">
+              <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+                <img src="assets/covers/paper-vera.svg" alt="VERA evidence quorum" class="w-100 rounded-sm" />
+              </div>
+              <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+                <h5 class="mt-0 mb-1 font-weight-normal">VERA: Root-Domain Evidence Quorums for Carrier Integrity in Tool-Calling Agents</h5>
+                <p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong></p>
+                <p class="mt-0 mb-0 small">Under Review at <i>AAAI 2027</i> <span class="badge badge-pill badge-warning">Under Review</span></p>
+                <p class="mt-0 mb-0 small text-muted abstract-body">VERA introduces root-domain evidence quorums and an execution-boundary monitor for tool-calling agents. The mechanism jointly verifies signed evidence, semantic claims, task scope, provenance dependency closure, and exact invocation capabilities.</p>
+                <p class="small pb-0 mb-0 text-muted"><span>[Manuscript under review]</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="d-md-none mobile-publication" style="background-image:url('assets/covers/paper-vera.svg')">
+            <div class="mobile-publication-overlay"><h5 class="mt-0 mb-1 font-weight-normal">VERA: Root-Domain Evidence Quorums for Carrier Integrity in Tool-Calling Agents</h5><p class="mt-0 mb-0 small"><strong>Qunsheng Zhang</strong></p><p class="mt-0 mb-0 small">Under Review at <i>AAAI 2027</i></p><p class="mt-0 mb-0 small text-muted">Root-domain evidence quorums and execution-boundary monitoring for tool-calling agents.</p></div>
+          </div>
+        </article>
+
+        <h6 class="d-block p-3 mt-0 text-right">
+          <a href="publications.html">All publications <i class="fas fa-angle-double-right"></i></a>
+        </h6>
+      </section>
+
+      <section class="text-center my-4 visitor-counter">
+        <img
+          src="https://visitor-badge.laobi.icu/badge?page_id=USST-ZQS.USST-ZQS.github.io"
+          alt="Visitor counter"
+          loading="lazy"
+        />
       </section>
     </main>
 
-    <footer class="site-footer page-shell">
-      <p>© <span id="year"></span> Qunsheng Zhang</p>
-      <p>Last updated: August 2026</p>
+    <div class="modal fade" id="modal-wechat" tabindex="-1" role="dialog" aria-labelledby="wechat-title" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-4 text-center">
+            <i class="fab fa-weixin wechat-icon"></i>
+            <h5 id="wechat-title" class="mt-3">WeChat Contact</h5>
+            <p class="small text-muted mb-0">Please email me with your name, affiliation, and reason for connecting. I will reply with my WeChat contact.</p>
+          </div>
+          <div class="modal-footer py-2">
+            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row my-3">
+          <div class="col-6"><div class="text-muted"><i>Last updated: Aug 2026</i></div></div>
+          <div class="col-6"><div class="text-right text-muted">© <span id="year"></span> Qunsheng Zhang</div></div>
+        </div>
+      </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
